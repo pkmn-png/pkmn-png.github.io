@@ -89,7 +89,7 @@ function mountApp(names) {
                 expanded.value = !expanded.value;
                 style.value = `position: absolute; visibility: ${expanded.value ? 'visible' : 'hidden'}`;
             };
-            const crossStitchHost = "http://puzzleweaver.github.io/cross-stitch-maker";
+            const crossStitchHost = "http://pattern-generator.github.io/";
             const encodedUrl = encodeURIComponent(url);
             const crossStitchUrl = `${crossStitchHost}?img=${encodedUrl}`;
             const copy = () => {
